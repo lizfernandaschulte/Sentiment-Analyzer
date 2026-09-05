@@ -1,32 +1,28 @@
 # Sentiment Analyzer
 
-A web app that detects whether a text is positive or negative — built with Python, scikit-learn and Streamlit.
+A web app that detects whether a text is positive or negative, built with Python, scikit-learn and Streamlit.
 
 I built this project to get hands-on experience with Natural Language Processing and Machine Learning. I wanted to go beyond tutorials and actually train a model with real data, so I used 50,000 movie reviews from the IMDB dataset and got to 89% accuracy.
 
----
 
 ## Live Demo
 
-> Coming soon — deploying on Streamlit Cloud
+> Coming soon: deploying on Streamlit Cloud
 
----
 
 ## What it does
 
-You type any text, hit analyze, and the app tells you if it's positive or negative along with a confidence score. That's it — simple but the interesting part is everything happening under the hood.
+You type any text, hit analyze, and the app tells you if it's positive or negative along with a confidence score. Simple but the interesting part is everything happening under the hood.
 
----
 
 ## How I built it
 
-1. **Data** — 50,000 real movie reviews from the IMDB dataset, already labeled as positive or negative
-2. **Cleaning** — removed HTML tags, punctuation and stopwords from every review
-3. **Vectorization** — converted text into numbers using TF-IDF (top 10,000 words)
-4. **Model** — trained a Logistic Regression classifier on 80% of the data
-5. **Results** — tested on the remaining 10,000 reviews
+1. **Data**: 50,000 real movie reviews from the IMDB dataset, already labeled as positive or negative
+2. **Cleaning**: removed HTML tags, punctuation and stopwords from every review
+3. **Vectorization**: converted text into numbers using TF-IDF (top 10,000 words)
+4. **Model***:  trained a Logistic Regression classifier on 80% of the data
+5. **Results**: tested on the remaining 10,000 reviews
 
----
 
 ## Results
 
@@ -37,18 +33,16 @@ You type any text, hit analyze, and the app tells you if it's positive or negati
 | F1-Score | 89% | 89% |
 | **Overall Accuracy** | **89.24%** | |
 
----
 
 ## Tech Stack
 
-- **Python** — main language
-- **pandas** — loading and exploring the dataset
-- **NLTK** — text cleaning and stopwords
-- **scikit-learn** — TF-IDF vectorization and model training
-- **Streamlit** — web interface
-- **pickle** — saving and loading the trained model
+- **Python**: main language
+- **pandas**: loading and exploring the dataset
+- **NLTK**: text cleaning and stopwords
+- **scikit-learn**: TF-IDF vectorization and model training
+- **Streamlit**: web interface
+- **pickle**: saving and loading the trained model
 
----
 
 ## Run it locally
 
@@ -74,9 +68,8 @@ python model.py
 # Run the app
 streamlit run app.py
 ```
----
 
-## 👩‍💻 Author
+## Author
 
 **Liz Fernanda Schulte**  
 Software Engineering Student  
