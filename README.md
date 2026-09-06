@@ -73,5 +73,4 @@ streamlit run app.py
 
 **Liz Fernanda Schulte**  
 Software Engineering Student  
-[GitHub](https://github.com/lizfernandaschulte)· [LinkedIn](www.linkedin.com/in/
-liz-fernanda-schulte-4a1592434)
+[GitHub](https://github.com/lizfernandaschulte)· [LinkedIn](https://www.linkedin.com/in/liz-fernanda-schulte-4a1592434)
