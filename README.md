@@ -7,7 +7,8 @@ I built this project to get hands-on experience with Natural Language Processing
 
 ## Live Demo
 
-> Coming soon: deploying on Streamlit Cloud
+**[sentiment-analyzer-liz.streamlit.app](https://sentiment-analyzer-liz.streamlit.app)**
+![App Screenshot](assets/img/Demo.png)
 
 
 ## What it does
